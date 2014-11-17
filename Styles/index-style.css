@@ -1,0 +1,212 @@
+/********************************************
+	Normalize CSS
+	http://necolas.github.com/normalize.css/
+********************************************/
+
+html {
+	height: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+	min-height: 100%;
+	font-size: 100%;
+}
+
+{
+	display: block;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+b,
+strong {
+	font-weight: normal;
+}
+
+abbr[title] {
+	border-bottom: 1px dotted;
+}
+
+input,
+textarea,
+button,
+select {
+	margin: 0;
+	font-size: 100%;
+	line-height: normal;
+	vertical-align: baseline;
+}
+
+
+textarea {
+	overflow: auto;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+/* ******************************************
+	Web Fonts
+****************************************** */
+
+body {
+	font-family: "Open sans", Arvo, Arial, serif;
+
+}
+
+
+/**
+ * For modern browsers
+ */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.cf {
+    *zoom: 1;
+}
+
+
+/* ******************************************
+  Page Styles
+****************************************** */
+
+
+body {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+
+}
+
+header > div.wrapper > ul {
+  float: left;
+}
+
+.wrapper {
+  width: 1000px;
+margin: 0 auto;
+}
+.page-header
+
+header > div.wrapper > ul > li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 4px;
+  color: #764c28;
+  font-size: 1em;
+  
+}
+
+header > div.wrapper > a {
+  color: #FFFFF;
+  text-decoration: none;
+  transition: color .25s ease-in-out;
+   -moz-transition: color .25s ease-in-out;
+   -webkit-transition: color .25s ease-in-out;
+  float: right;
+  display: block;
+  padding: 20px;
+}
+
+
+header > div.wrapper {
+  font-family: 'Arvo', sans-serif;
+  letter-spacing: 0.02em;
+
+}
+
+header > div.wrapper {
+  background-color: #FFFFFF;
+  
+}
+
+header h2, header a {
+  text-transform:
+  
+}
+
+header h2 {
+  font-size: 1em;
+}
+
+hr { 
+  width: 100%; 
+  height: 0px;
+  background-color: #764c28
+  color: #764c28;
+  border: 1 none;
+  margin: 0 0 1.4em; 
+}
+
+section.portfolio {
+  display: block;
+  margin: 0 auto;
+  width: 960px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.photo-wrapper {
+  display: inline-block;
+  text-align: center;
+  
+}
+
+.photo-wrapper > p {
+  text-align: center;
+  margin-top: .25em;
+  font-size: .75em;
+  color: #000000;
+  
+}
+
+
+footer.colophon {
+  background: #764c28;
+  padding: 8px 20px;
+  font-size: .55em;
+  color: #FFFFFF;
+}
